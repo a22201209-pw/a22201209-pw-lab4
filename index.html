@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Lisboa</title>
+
+  <meta name="author" content="Pedro Gonçalves">
+  <meta name="description" content="Layouts baseados em flex e grid">
+  <meta name="keywords" content="flex">
+
+  <style>
+		@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
+	</style>
+
+  <link rel="stylesheet" href="fontawesome-5.5/css/all.min.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!-- city section -->
+  <section id="city" class="text-white font-big parallax">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-md navbar">
+      <div class="container">
+        <div class="next">
+          <a href="index.html" class="navbar-brand">Home</a>
+        </div>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars navbar-toggler-icon"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link nav-link" href="#introduction">Introdução</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link" href="local.html">Localização</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link" href="galeria.html">Galeria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link" href="video.html">Video</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="text-center city-text-container">
+      <div class="city-text-container-inner">
+        <h2 class="city-title">Lisboa</h2>
+        <p class="city-subtitle" style="margin-top: 2rem;">
+          <span><b>"O comboio abranda, é o Cais do Sodré. Cheguei a Lisboa, mas não a uma conclusão."</b></span>
+          <br /><i>Fernando Pessoa</i>
+        </p>
+      </div>
+    </div>
+    <div class="next intro-next">
+      <a href="#introduction" class="text-center down-arrow-link">
+        <i class="fas fa-3x fa-caret-down down-arrow"></i>
+      </a>
+    </div>
+  </section>
+
+  <section id="introduction" class="section-pad-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <img src="img/lisboa1.jpg" alt="Lisboa" class="img-fluid intro-img" />
+        </div>
+        <div class="col-lg-6">
+          <div class="intro-text-container">
+            <h2 class="text-primary mb-4 section-title">Introdução</h2>
+            <p class="mb-4 intro-text">
+              Lisboa é uma cidade que dispensa apresentações. É o centro da maior zona urbana do país e uma cidade repleta de motivos de interesse e oportunidades.</br> 
+              É por excelência uma cidade cosmopolita ou não tivesse sido a partir de Lisboa que se lançou a descoberta de novos mundos. </br>
+              Esta mítica epopeia haveria de transformar Lisboa na primeira cidade global do mundo. Essa herança ainda se respira por toda a cidade e os inúmeros visitantes que percorrem Lisboa transportam-nos, de certa forma, para o bulício do tempo dos descobrimentos, para uma cidade fervilhante e hospitaleira, de grandes tradições, renovada nas suas infraestruturas. </br>
+              Lisboa é uma das mais visitadas cidades do mundo.
+            </p>
+            <p class="mb-5 intro-text">
+              <div class="next">
+                <a href="galeria.html" class="intro-text btn-primary">Venha descobrir mais</a>
+              </div>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="text-primary section-title" style="margin-top:2rem;">Mobilidade em Lisboa</h2>
+      <div class="row section-pad-top">
+       
+        <div class="col-lg-4">
+          <i class="fas fa-4x fa-bus text-center icon"></i>
+          <h4 class="text-center text-primary mb-4">Transportes públicos</h4>
+        </div>
+
+        <div class="col-lg-4 mt-5 mt-lg-0">
+          <i class="fas fa-4x fa-bicycle text-center icon"></i>
+          <h4 class="text-center text-primary mb-4">Bicicleta</h4>
+        </div>
+        <div class="col-lg-4 mt-5 mt-lg-0">
+          <i class="fas fa-4x fa-city text-center icon"></i>
+          <h4 class="text-center text-primary mb-4">Passear</h4>
+        </div>
+      </div>
+  </section>
+
+  
+  <!-- Footer -->
+  <section id="footer" class="section-pad-top">
+    <footer class="text-center small footer" style="padding: 2rem 0rem;">
+      <p class="mb-0">
+        <span>Pedro Gonçalves - a22201209 - ULHT - 2023</span>
+      </p>
+    </footer>
+  </section>
+</body>
+
+</html>
